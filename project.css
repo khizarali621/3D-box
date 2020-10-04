@@ -25,16 +25,15 @@ background-size:cover
 .rotate-label{
 	display:inline-block;
 	margin-left:0.5rem;
-	background:#2980b9;
+	background:black;
 	color:#fff;
-	border-radius:0.5rem;
 	padding:0.25rem 0.5rem;
 	cursor:pointer;
 	transition:all 0.25s;
 }
 
 .rotate:checked+.rotate-label{
-	background:#3498db;
+	background: rgb(44, 44, 44);
 }
 
 .perspective{
